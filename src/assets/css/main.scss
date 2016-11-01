@@ -1,19 +1,67 @@
 @import 'node_modules/node-normalize-scss/_normalize.scss';
-@import 'https://fonts.googleapis.com/css?family=Open+Sans';
+
+@font-face{
+  font-family: "Lora";
+  src: url('/')
+}
 
 *{
-  border-radius: 5px;
+  //border-radius: 5px;
   box-sizing: border-box;
 }
 
 html, body{
-  background-color: yellow;
-  font-family: 'Open Sans', sans-serif;
+  background-color: #FFF;
   margin: 0px;
   padding: 0px;
   text-align: center;
+  margin-top: -10px;
+
 }
-  
+
 select, input, button{
   border-width: 0px;
+}
+
+.home-image{
+  background:url('../img/file-page1.png');
+  background-position: center center;
+  background-size: cover;
+  height: 800px;
+  //width: 100%;
+}
+.home-text{
+  position: relative;
+  text-align: center;
+  top: 30%;
+  color:white;
+  word-spacing:3px;
+  letter-spacing:4px;
+
+
+}
+h1.title{
+  padding-top:15px;
+  word-spacing:12px;
+  letter-spacing:3px;
+
+}
+//nachalo na wtora chast
+h1.service{
+  position: relative;
+  text-align: center;
+  top: 14%;
+  word-spacing:7px;
+  letter-spacing:7px;
+
+}
+.our-service{
+  background-image:url("../img/Service.jpg");
+  height: 700px;
+  background-position: center center;
+  background-size: cover;
+
+
+
+
 }
